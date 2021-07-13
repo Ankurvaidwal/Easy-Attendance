@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AttendenceActivity">
+    <include
+        android:id="@+id/present_slide"
+        layout="@layout/view_present"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/absent_slide"
+        layout="@layout/view_absent"
+        android:visibility="gone"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/attendence_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+   <include
+       android:visibility="gone"
+       layout="@layout/attendance_done"/>
+
+
+</FrameLayout>

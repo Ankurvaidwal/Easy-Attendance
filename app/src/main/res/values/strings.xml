@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">EasyAttendence</string>
+    <string name="name">Name</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="Save_detail">Save</string>
+    <string name="update_failed">Update Failed</string>
+    <string name="update_successful">Update Successful</string>
+    <string name="add_new_student">Add Student</string>
+    <string name="update_student_detail">Edit Student</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="no">No</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="action_delete">Delete</string>
+    <string name="delete_dialog_msg">Delete this Student ?</string>
+    <string name="cancel">Cancel</string>
+    <string name="Classroom">Classroom</string>
+    <string name="delete_all_dialog_msg">Delete the selected students ?</string>
+    <string name="student_feed_validity">Boundaries might be empty or invalid roll number</string>
+    <string name="action_add">add</string>
+    <string name="Take_Attendence">Attendance</string>
+    <string name="attendence_title">Attendance</string>
+    <string name="terminate">terminate</string>
+    <string name="terminate_operation">Terminate the attendence ?</string>
+    <string name="stop_attendence">Are you sure to stop the attendence ?</string>
+    <string name="stop">Stop</string>
+    <string name="save">SAVE</string>
+    <string name="yes">Yes</string>
+    <string name="recheck">Recheck</string>
+    <string name="history_drawer_text">Attendence History</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="history_list">History Arraylist</string>
+</resources>
